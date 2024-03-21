@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>dinithidistributors</title>
+  <link rel="icon" href="logo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Dinithi.css">
+  <script src="Dinithi.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/38c5c1971a.js" crossorigin="anonymous"></script>
+  
+  
+</head>
+<style>
+ 
+</style>
+<body>
+
+<!-- Navigation Bar-->
+<nav class="navbar navbar-expand-lg bg-blue navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0" id="navbar">
+  <a href="index.html" class="navbar-brand  ms-lg-5">
+    <img src="logo.jpg" height="50px" width="50px">
+    <h1 style="color: #2f1fe5;">Dinithi<span style="color: #2ce510;"> Distributors (Pvt)Ltd</span></h1>
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto py-0">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="About Us.html" class="nav-item nav-link">About</a>
+          <a href="#services" class="nav-item nav-link">Services</a>
+          <a href="#promotion" class="nav-item nav-link">Promotions</a>
+          <a href="#footer" class="nav-item nav-link">Contact</a>
+          <a href="tel:+9471 972 3 972" class="nav-item nav-link nav-contact bg-secondary text-white px-5 ms-lg-5"><i class="bi bi-telephone-outbound me-2"></i>071 972 3 972</a>
+      </div>
+  </div>
+</nav>
+
+<!-- Header Image-->
+<div class="container-fluid bg-primary py-5 mb-5 hero-header">
+    <div class="container py-5">
+        <div class="row justify-content-start">
+            <div class="col-lg-8 text-center text-lg-start">
+                <h1 class="text-white"> Authorized Delear in </h1>
+                <h1 style=" color: #2f1fe5;font-size: 120px ;">SLT<span style="color: #2ce510; font-size: 110px;"> Mobitel</span></h1>
+                <h1 class="text-uppercase text-white"> we serve the best SLT Mobitel service to your doorstep.......</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product & Services-->
+<section id="services">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h2 class="text-primary font-secondary">Products & Services</h2>
+          <h1 class="display-5 mb-0"> We provide SLT MOBITEL products and Services</h1>
+      </div>
+      <div class="row g-5">
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+              <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                  <div class="position-relative p-5">
+                      <i class="flaticon-cctv d-block display-1 fw-normal text-secondary mb-3"></i>
+                      <h5 class="text-primary mb-0">Shop</h5>
+                      <h3 class="mb-3">Registration</h3>
+                      <p>You can enter your shop details yourself in our database and you can get MOBITEL cards, reloads and other services to your shop.</p>
+
+              <button class="open-form-button" onclick="openForm()">Registration Form</button>
+            </div>
+          </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+              <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                  <div class="position-relative p-5">
+                      <i class="flaticon-surveillance d-block display-1 fw-normal text-secondary mb-3"></i>
+                      <h5 class="text-primary mb-0">Pre/Post-Paid & Corperate</h5>
+                      <h3 class="mb-3">Packages</h3>
+                      <p>Our telecommunication agency offers various mobile packages, including prepaid, postpaid, and corporate options, catering to various communication needs and budgets.</p>
+                      <button class="pdf-button" onclick="openPDF1()">Package Details</button>
+                      <button class="openWhatsApp" onclick="openWhatsApp()">WhatsApp</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+              <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                  <div class="position-relative p-5">
+                      <i class="flaticon-camera d-block display-1 fw-normal text-secondary mb-3"></i>
+                      <h5 class="text-primary mb-0">SLT MOBITEL</h5>
+                      <h3 class="mb-3">Routers</h3>
+                      <p>Discover our high-performance WiFi routers for seamless connectivity. Elevate your online experience with our reliable, fast, and secure wireless solutions.</p>
+                      <button class="pdf-button" onclick="openPDF()">Package Details</button>
+                      <button class="openWhatsApp"onclick="openWhatsApp()">WhatsApp</button>
+                  </div>
+              </div>
+          </div> 
+      </div>
+  </div>
+</div>
+</section>
+
+
+<!-- Promotion-->
+<section id="promotion">
+<div class="container-fluid p-0 mt-5 ">
+  <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+    <h2 class="text-primary font-secondary"> Promotion Services</h2>
+    <h1 class="display-5 mb-0"> We add extra value to your event and oppening ceromonyies</h1>
+</div>
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="promo event1.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h1 class="display-1 mb-md-4 animated zoomIn"> you can Get a promotion to Decerate your Special Event.......</h1>
+                        <button class="open-form-button" onclick="openForm()">Booking Now</button>
+
+                        <div class="popup-form-container" id="formContainer">
+                            <button class="close-button" onclick="closeForm()">Close</button>
+                        <h2>Shop Information Form</h2>
+                        <!--<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">-->
+                            <label for="shopName">Shop Name:</label>
+                            <input type="text" id="shopName" name="shopName" required>
+                            <br>
+                            <label for="shopAddress">Shop Address:</label>
+                            <input type="text" id="shopAddress" name="shopAddress" required>
+                            <br>
+                            <label for="contactNumber">Contact Number:</label>
+                            <input type="tel" id="contactNumber" name="contactNumber" required>
+                            <br>
+                            <label for="ownerName">Owner Name:</label>
+                            <input type="text" id="ownerName" name="ownerName" required>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                        </div>
+                        <button class="opencall" onclick="makePhoneCall()">Make Phone Call</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="promo truck.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">You can Get a promotion to Decerate your Special Event.......</h1>
+                        <button class="open-form-button" onclick="openForm()">Booking Now</button>
+
+                        <div class="popup-form-container" id="formContainer">
+                            <button class="close-button" onclick="closeForm()">Close</button>
+                        <h2>Shop Information Form</h2>
+                        <!--<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">-->
+                            <label for="shopName">Shop Name:</label>
+                            <input type="text" id="shopName" name="shopName" required>
+                            <br>
+                            <label for="shopAddress">Shop Address:</label>
+                            <input type="text" id="shopAddress" name="shopAddress" required>
+                            <br>
+                            <label for="contactNumber">Contact Number:</label>
+                            <input type="tel" id="contactNumber" name="contactNumber" required>
+                            <br>
+                            <label for="ownerName">Owner Name:</label>
+                            <input type="text" id="ownerName" name="ownerName" required>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                        </div>
+                        <button  class="opencall" onclick="makePhoneCall()">Make Phone Call</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="promo event.png" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">You can Get a promotion to Decerate your Special Event.......</h1>
+                        <button class="open-form-button" onclick="openForm()">Booking Now</button>
+
+                        <div class="popup-form-container" id="formContainer">
+                            <button class="close-button" onclick="closeForm()">Close</button>
+                        <h2>Shop Information Form</h2>
+                        <!--<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">-->
+                            <label for="shopName">Shop Name:</label>
+                            <input type="text" id="shopName" name="shopName" required>
+                            <br>
+                            <label for="shopAddress">Shop Address:</label>
+                            <input type="text" id="shopAddress" name="shopAddress" required>
+                            <br>
+                            <label for="contactNumber">Contact Number:</label>
+                            <input type="tel" id="contactNumber" name="contactNumber" required>
+                            <br>
+                            <label for="ownerName">Owner Name:</label>
+                            <input type="text" id="ownerName" name="ownerName" required>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                        </div>
+                        <button  class="opencall" onclick="makePhoneCall()">Make Phone Call</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+</section>
+
+<!--About our Service -->
+<div class="container-fluid pt-5">
+    <div class="container">
+        <div class="section-title position-relative text-center mx-auto mt-5 pb-3" style="max-width: 600px;">
+            <h2 class="text-primary font-secondary">About our Service</h2>
+            <h1 class="display-5 mb-5">We setisfy the thousend of People's communication needs.</h1>
+        </div>
+        <div class="row gx-5">
+            <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="service.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 pb-5">
+                <h4 class="mb-4">Welcome to our telecommunications agency! We are a dedicated team of professionals passionate about delivering top-notch telecommunication solutions to our clients. </h4>
+                <p class="mb-5">With years of experience in the industry, we have built a reputation for providing reliable and efficient services. We are committed to delivering exceptional service quality, reliable connectivity, and unmatched customer satisfaction. Choose us as your trusted telecommunications partner and experience the difference of working with a team that prioritizes your communication needs.</p>
+                <div class="row g-5">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center justify-content-center bg-primary border-inner mb-4" style="width: 90px; height: 90px;">
+                          <i class="fas fa-history fa-2x text-white"></i>
+                        </div>
+                        <h4 class="text-uppercase">Our Experiens</h4>
+                        <div class="counting-container">
+                          <div class="counting-item">
+                              <h2><span id="completed-projects">0</span>years</h2>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center justify-content-center bg-primary border-inner mb-4" style="width: 90px; height: 90px;">
+                          <i class="fa fa-smile-o fa-2x text-white"></i>
+                        </div>
+                        <h4 class="text-uppercase">Happy Coustermers</h4>
+                        <div class="counting-container">
+                        <div class="counting-item">
+                          <h2><span id="happy-customers">0</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service coverage -->
+<section id="service-coverage">
+<div class="section-title position-relative text-center mx-auto mt-5 pb-3" style="max-width: 600px;">
+  <h2 class="text-primary font-secondary">Service coverage</h2>
+  <h1 class="display-5 ">We cover the huge area and serve the best service</h1>
+</div>
+<div class="container-fluid bg-offer my-5 py-5 ">
+  <div class="container py-5">
+      <div class="row gx-5 justify-content-center">
+          <div class="col-lg-7 text-center">
+              <div class="text-center mx-auto mb-4" style="max-width: 200px;">
+                  
+              </div>
+              <h1 class="text-white mb-5">Dompe, Pugoda, Delgoda, Malwana, Biyagama, Millathe, Peliyagoda, Kirindiwela, Amithirigala, Meethirigala, Udupila North, Udupila South, Kelaniya, Giridara Junction, Siyambalape South, Siyambalape Watta, Makola South, Gonawala, Sapugaskanda, Makola North Central, Kadawatha, Mapitigama, Heiyanthuduwa, Pepiliyawala, Dangalla, etc........</h1>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<!-- Service Agents-->
+<section id="Agents">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <div class="containerp">
+      <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+          <h2 class="text-primary font-secondary">Service Agents</h5>
+          <h1 class="display-5 mb-0"> Our valuble team members dedicate to serve the best service to you</h1>
+      </div>
+
+      <section class="testimonials">
+        <div class="testimonial-containeri">
+          <div class="testimonial-slides">
+            <div class="testimonial-slide">
+              <img src="logo.jpg" alt="Person 1">
+              <h3>Mr. Thilak Perera </h3>
+              <p>Sales Rep</p>
+              <p>Area: Kelaniya</p>
+              <p>Contact: 071 9723972</p>
+            </div>
+            <div class="testimonial-slide">
+              <img src="logo.jpg" alt="Person 2">
+              <h3>Mr. Dinesh Indika</h3>
+              <p>Sales Rep</p>
+              <p>Area: Kirindiwela</p>
+              <p>Contact: 071 9723972</p>
+            </div>
+            <div class="testimonial-slide">
+              <img src="logo.jpg" alt="Person 3">
+              <h3>Mr. Sameera Nishaad</h3>
+              <p>Sales Rep</p>
+              <p>Area: Malwana</p>
+              <p>Contact: 071 9723972</p>
+            </div>
+            <div class="testimonial-slide">
+              <img src="logo.jpg" alt="Person 4">
+              <h3>Mr. Upali Siri Nimal</h3>
+              <p>Sales Rep</p>
+              <p>Area: Biyagama</p>
+              <p>Contact: 071 9723972</p>
+            </div>
+            <div class="testimonial-slide">
+                <img src="logo.jpg" alt="Person 5">
+                <h3>Mr. Harsha Dimuthu</h3>
+                <p>Sales Rep</p>
+              <p>Area: Wathurugama</p>
+              <p>Contact: 071 9723972</p>
+            </div>
+            <div class="testimonial-slide">
+                <img src="logo.jpg" alt="Person 6">
+                <h3>Mr. Sunil Dissanayake</h3>
+                <p>Promo Team</p>
+              <p>Area: Areawide</p>
+              <p>Contact: 071 9723972</p>
+            </div>
+            <div class="testimonial-slide">
+                <img src="logo.jpg" alt="Person 7">
+                <h3>Mr. kasun Darshana</h3>
+                <p>Sales Rep</p>
+              <p>Area: Dompe</p>
+              <p>Contact: 071 9723972</p>
+            </div>
+            <div class="testimonial-slide">
+              <img src="logo.jpg" alt="Person 8">
+              <h3>Mr. Gayan Ashoka</h3>
+              <p>Internet Expert</p>
+              <p>Area: Ilandwide</p>
+              <p>Contact: 071 9723972</p>
+          </div>
+          <div class="testimonial-slide">
+            <img src="logo.jpg" alt="Person 9">
+            <h3>Mr. Prassanna Madurapperuma</h3>
+            <p>Sales Rep</p>
+              <p>Area: Mawaramandiya</p>
+              <p>Contact: 071 9723972</p>
+        </div>
+        <div class="testimonial-slide">
+          <img src="logo.jpg" alt="Person 7">
+          <h3>Mr. Priyntha Hewawasam</h3>
+          <p>Promo Team</p>
+              <p>Area: AreaWide</p>
+              <p>Contact: 071 9723972</p>
+      </div>
+          </div>
+        </div>
+      </section>
+
+  </div>
+</div>
+</section>
+
+<!-- Site Map -->
+<section id="site map">
+<div class="text-center text-lg-start text-white"
+     style="background-color: #2f1fe5">
+
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+  <!-- Section: Links -->
+  <section class="">
+    <!--Grid row-->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h4>Retailers</h4>
+        <ul>
+          <li><a href="#services">New Shop</a></li>
+          <li><a href="#services">Card & Reload</a></li>
+          <li><a href="#service-coverage">Service Map</a></li>
+          <li><a href="#Agents">Sales Person</a></li>
+        </ul>
+        <h4>Mobitel</h4>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h4>Routers</h4>
+      <ul>
+        <li><a href="#services">Order</a></li>
+        <li><a href="https://mobitel.lk/?index=true">Packages</a></li>
+      </ul>
+      <h4>Promotion</h4>
+      <ul>
+        <li><a href="#promotion">Book Promotion</a></li>
+      </ul>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h4>Sim</h4>
+      <ul>
+        <li><a href="https://match.mobitel.lk/OnlineNumberMatcher/">Match Number</a></li>
+        <li><a href="#services">Pre-paid</a></li>
+        <li><a href="#services">Post Paid</a></li>
+        <li><a href="#services">Coeporate</a></li>
+      </ul>
+      <h4>Contact Us</h4>
+      <br>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h4>About us</h4>
+      <ul>
+        <li><a href="About Us.html">Owner</a></li>
+        <li><a href="About Us.html">Managers</a></li>
+        <li><a href="About Us.html">Annual Trip</a></li>
+        <li><a href="About Us.html">Social Activities</a></li>
+      </ul>
+      <h4>News</h4>
+      </div>
+
+    </div>
+  </section>
+</div>
+</div>
+</section>
+
+<hr style="height:15px;border-width:0;background-color:#050505">
+
+<!-- Footer -->
+<section id="footer">
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #070707"
+          >
+    <br>
+    <h2 class="text-center mb-3 mt-3">Dinithi Distributors (Pvt) Ltd</h2>
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold"><i class="fa-solid fa-address-card"></i> Address:</h6>
+            <p> No:27/A/1,</p>
+            <p> Delovita,</p>
+            <p> Kiridiwela,</p>
+            <p> Sri Lanka(WP)</p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold"><i class="fa-solid fa-phone"></i> hotline:</h6>
+            <a href="tel:+9471 972 3 972" class="nav-item nav-link nav-contact bg-secondary text-white px-5 ms-lg-5"><i class="bi bi-telephone-outbound me-2"></i>071 972 3 972</a>
+            <br>
+            <h6 class="text-uppercase mb-4 font-weight-bold"><i class="fa-regular fa-envelope"></i> E-mail:</h6>
+            <a href="mailto:Dinithiwp@gmail.com">Dinithiwp@gmail.com</a>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us:</h6>
+
+            <!-- Facebook -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #3b5998"
+               href="https://www.facebook.com/profile.php?id=100040746673755&mibextid=ZbWKwL"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- whatsapp -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0ded14"
+              href="#!"
+              role="button"
+              onclick="openWhatsApp()"
+              ><i class="fa-brands fa-whatsapp"></i></a>
+
+            <!-- Viber -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #e910d3"
+              href="#!"
+              role="button"
+              onclick="openViber()"
+              ><i class="fa-brands fa-viber"></i></a>
+          </div>
+           <!-- Grid column -->
+           <hr class="w-100 clearfix d-md-none" />
+
+           <!-- Grid column -->
+           <hr class="w-100 clearfix d-md-none" />
+           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Find Us On:</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.7317819112714!2d80.12291537464931!3d7.0407750929612805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae301aa9421a635%3A0x621917546bf93dd3!2sDinithi%20Distributors%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1683010704468!5m2!1sen!2slk" width="380" height="200"></iframe>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: #2ce510"
+         >
+      © 2023 All Rights Reserved:
+      <a class="text-white" href="#site map"
+         >Site Map</a
+        >
+    </div>
+</footer>
+</section>
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+<!--form-->
+<div class="popup-form-container" id="formContainer">
+  <button class="close-button" onclick="closeForm()">Close</button>
+<h2>Shop Information Form</h2>
+<form>
+  <label for="shopName">Shop Name:</label>
+  <input type="text" id="shopName" name="shopName" required>
+  <br><br>
+  <label for="shopAddress">Shop Address:</label>
+  <input type="text" id="shopAddress" name="shopAddress" required>
+  <br><br>
+  <label for="contactNumber">Contact Number:</label>
+  <input type="tel" id="contactNumber" name="contactNumber" required>
+  <br><br>
+  <label for="ownerName">Owner Name:</label>
+  <input type="text" id="ownerName" name="ownerName" required>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+
+<script>
+    // Add JavaScript for slideshow
+    const testimonialSlides = document.querySelector('.testimonial-slides');
+    const testimonialSlideWidth = document.querySelector('.testimonial-slide').offsetWidth;
+    let testimonialSlideIndex = 0;
+
+    function nextSlide() {
+      testimonialSlideIndex = (testimonialSlideIndex + 1) % 5;
+      testimonialSlides.style.transform = `translateX(-${testimonialSlideIndex * testimonialSlideWidth}px)`;
+    }
+
+    setInterval(nextSlide, 3000);
+</script>
+
+<script>
+    // Function to open the PDF file
+    function openPDF() {
+      var mobitelSite ="https://www.mobitel.lk/broadband";
+        window.open(mobitelSite); 
+    }
+</script>
+
+<script>
+  // Function to open the PDF file
+  function openPDF1() {
+    var mobitelSite1 ="https://mobitel.lk/?index=true";
+      window.open(mobitelSite1); 
+  }
+</script>
+
+<script>
+  // Function to open the popup form
+  function openForm() {
+      document.getElementById("formContainer").style.display = "block";
+  }
+
+  // Function to close the popup form
+  function closeForm() {
+      document.getElementById("formContainer").style.display = "none";
+  }
+</script>
+
+<script>
+  // Function to open WhatsApp with a pre-filled message
+  function openWhatsApp() {
+      var phoneNumber = "+94719723972"; 
+      var message = "Hello, I'm interested in your products/services."; // Replace with your pre-filled message
+      var whatsappUrl = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+      window.open(whatsappUrl);
+  }
+</script>
+
+<script>
+  function openViber() {
+      var recipient = "+94719723972";
+      window.location.href = "viber://chat?number=" + recipient;
+  }
+</script>
+
+<script>
+  // Function to make a phone call
+  function makePhoneCall() {
+      var phoneNumber = "0719723972"; 
+      window.location.href = "tel:" + phoneNumber;
+  }
+</script>
+
+<script>
+  // Function to start counting
+  function startCounting() {
+      var completedProjects = 0; // Replace with the actual completed projects count
+      var happyCustomers = 0; // Replace with the actual happy customers count
+
+      var completedProjectsElement = document.getElementById("completed-projects");
+      var happyCustomersElement = document.getElementById("happy-customers");
+
+      var intervalId = setInterval(function() {
+          if (completedProjects < 22) {
+              completedProjects += 1;
+              completedProjectsElement.textContent = completedProjects;
+          }
+          if (happyCustomers < 978352) {
+              happyCustomers += 19;
+              happyCustomersElement.textContent = happyCustomers;
+          }
+          if (completedProjects === 22 && happyCustomers === 978352) {
+              clearInterval(intervalId);
+          }
+      }, 22);
+  }
+
+  // Call the function to start counting when the page loads
+  window.addEventListener("load", startCounting);
+</script>
+
+</body>
+</html>
